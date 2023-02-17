@@ -1,0 +1,33 @@
+.whatWeAllAbout__image__container{
+    min-height: 40vh;
+    background-color: var( --section-background);
+    .whatWeAllAbout__image__container{
+        columns: 8 200px;
+        column-gap: 10px;
+       
+    }
+    img{
+        width: 25%;
+        margin-bottom: 10px;
+     
+    }
+
+    .whatWeAllAbout__tab__container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      
+        .whatWeAllAbout__image__tab{
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+            &:not(:last-child){
+                margin-right: 2rem;
+               }
+
+        }
+    }
+}

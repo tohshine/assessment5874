@@ -1,0 +1,209 @@
+.recentProject__container{
+
+    .recentProject__title{
+        margin: 2rem 0;
+        .recentProject__subtitleHeading{
+            color: var( --color-gray-text);
+           
+        }
+    }
+    
+    
+    .recentProject__renderTab_container{
+        font-size: 0.6rem;
+        display: flex;
+        cursor: pointer;
+  
+       max-width: 50%;
+        .recentProject__tab{
+          display: flex;
+          flex-direction: column;
+          flex:0.25rem;
+         
+          align-items: center;
+          &:not(:first-child){
+            margin: 0 0 0 0.8rem;
+          }
+         
+        }
+        
+        
+       
+    }
+
+   
+
+
+    
+
+    .recentBorderTabs{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 0.1rem;
+        background-color: var(--section-background);
+        //min-width: 20vw;
+        max-width: 50%;
+
+        .recentBorderTab{
+           margin:  0;
+
+        }
+    }
+
+    .recentProject__seeMore__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-size: 0.8rem;
+        }
+        .recentProject__seeMore{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .recentProject__seeMore__next{
+            display: flex;
+            .recentProject__arrow{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 2rem;
+                height: 2rem;
+                margin: 0 0.5rem;
+                background-color: var(--section-background);
+            }
+        }
+    }
+
+    .imageContainer{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+        
+        .recentProject__image{
+            margin: 1rem 1rem;
+            background-size: cover;
+        }
+        .recentProject__Image__textContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: var( --section-background);
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .recentProject__renderTab_container{
+            font-size: 0.7rem;
+            display: flex;
+            cursor: pointer;
+          // max-width: 100%;
+            .recentProject__tab{
+              display: flex;
+              flex-direction: column;
+              flex:0px;
+              align-items: center;
+              &:not(:first-child){
+               margin: 0
+              }
+             
+            }
+            
+            
+           
+        }
+
+        .recentBorderTabs{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 0.1rem;
+            background-color: var(--section-background);
+            //min-width: 20vw;
+           // max-width: 100%;
+    
+            .recentBorderTab{
+               margin:  0;
+    
+            }
+        }
+    }
+
+    @media screen and (max-width: 820px) {
+        .recentProject__renderTab_container{
+            font-size: 0.7rem;
+            display: flex;
+            cursor: pointer;
+           max-width: 100%;
+            .recentProject__tab{
+              display: flex;
+              flex-direction: column;
+              flex:0px;
+              align-items: center;
+              &:not(:first-child){
+               margin: 0
+              }
+             
+            }
+            
+            
+           
+        }
+        .recentBorderTabs{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 0.1rem;
+            background-color: var(--section-background);
+            //min-width: 20vw;
+            max-width: 100%;
+    
+            .recentBorderTab{
+               margin:  0;
+    
+            }
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .recentProject__renderTab_container{
+            font-size: 0.4rem;
+            display: flex;
+            cursor: pointer;
+           max-width: 100%;
+            .recentProject__tab{
+              display: flex;
+              flex-direction: column;
+              flex:0px;
+              align-items: center;
+              &:not(:first-child){
+               margin: 0
+              }
+             
+            }
+            
+            
+           
+        }
+
+        .recentBorderTabs{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 0.1rem;
+            background-color: var(--section-background);
+            //min-width: 20vw;
+            max-width: 100%;
+    
+            .recentBorderTab{
+               margin:  0;
+    
+            }
+        }
+    }
+   
+}
